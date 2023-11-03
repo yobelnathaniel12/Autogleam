@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="container-fluid" style="padding: 0px">
-        @include('layouts.footer')
+        @include('layouts.footer') a
     </div>
 </body>
 
