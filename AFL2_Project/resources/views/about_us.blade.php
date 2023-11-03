@@ -6,10 +6,7 @@
             <div class="row h-100 align-items-center py-5">
                 <div class="col-lg-6">
                     <h1>About Us</h1>
-                    <p class="lead text-muted mb-0">Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.</p>
-                    <p class="lead text-muted">Snippet by <a href="https://bootstrapious.com/snippets" class="text-muted">
-                            <u>Bootstrapious</u></a>
-                    </p>
+                    <p class="lead mb-0">Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.</p>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block"><img src="https://bootstrapious.com/i/snippets/sn-about/illus.png"
                         alt="" class="img-fluid"></div>
@@ -17,7 +14,7 @@
         </div>
     </div>
 
-    <div class="bg-white py-5">
+    <div>
         <div class="container py-5">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
@@ -40,7 +37,7 @@
         </div>
     </div>
 
-    <div class="bg-light py-5">
+    <div>
         <div class="container py-5">
             <div class="row mb-4">
                 <div class="col-lg-5">
