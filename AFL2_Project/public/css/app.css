@@ -10,35 +10,8 @@ body {
 
 /* fitur di home screen */
 
-.feature-text {
-    font-size: 48px;
-    font-weight: 500;
-    color: #5a4ae2;
-}
-
-.sub-title {
-    font-size: 22px;
-    color: #000;
-}
-
-.set-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.set-position {
-    flex: 1;
-}
-
 .feature-card {
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0.05);
+    /* box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0.05); */
 }
 
 .feature-card:hover {
@@ -47,14 +20,12 @@ body {
 }
 
 .feature-card .circle-icon {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 70px;
+    align-items: center; */
+    /* width: 70px;
+    height: 70px; */
     background-color:#5a4ae2;
-    border-radius: 50%;
-    position: relative;
 
     transition: all .1s ease-in;
 
@@ -65,12 +36,12 @@ body {
 }
 
 .circle-icon img {
-    max-width: 100%;
+    /* max-width: 100%;
     max-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .feature-card h3 {
@@ -91,28 +62,6 @@ body {
 .feature-card:hover p {
     color: #fff;
 }
-
-/* about us page */
-
-.social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-  }
-
-  .social-link:hover,
-  .social-link:focus {
-    background: #ddd;
-    text-decoration: none;
-    color: #555;
-  }
 
 /* footer */
 

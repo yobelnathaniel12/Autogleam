@@ -1,25 +1,27 @@
 @extends('layouts.main')
 
 @section('content')
-    <div>
-        <div class="container py-5">
+    <div class="container-fluid", style="padding-inline: 5%">
+        <div class="py-5">
             <div class="row h-100 align-items-center py-5">
                 <div class="col-lg-6">
                     <h1>About Us</h1>
-                    <p class="lead mb-0">Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.</p>
+                    <p class="lead mb-0">Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya
+                        autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami
+                        adalah shampoo wax & hydrophobic.</p>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block"><img src="https://bootstrapious.com/i/snippets/sn-about/illus.png"
                         alt="" class="img-fluid"></div>
             </div>
         </div>
     </div>
-
-    <div>
-        <div class="container py-5">
+    <div class="container-fluid", style="padding-inline: 5%">
+        <div class="py-5">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
                     <h2 class="font-weight-light"> Visi </h2>
-                    <p class="font-italic text-muted mb-4"> Menjadi bisnis yang bisa menghubungkan antara carwash dan kustomer dimana kustomer bisa mencuci mobilnya dimana saja yang mereka mau.</p>
+                    <p class="font-italic text-muted mb-4"> Menjadi bisnis yang bisa menghubungkan antara carwash dan
+                        kustomer dimana kustomer bisa mencuci mobilnya dimana saja yang mereka mau.</p>
                 </div>
                 <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img
                         src="https://bootstrapious.com/i/snippets/sn-about/img-1.jpg" alt=""
@@ -42,7 +44,7 @@
             <div class="row mb-4">
                 <div class="col-lg-5">
                     <h1> Meet Our team</h2>
-                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
 

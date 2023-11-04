@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg static-top my-2">
-    <div class="container">
+    <div class="container-fluid" style="padding-inline: 5%">
         <a class="navbar-brand fw-bold fs-4" style="color: #5a4ae2" href="#">
             <img src="image/autogleam_logo.png" alt="..." height="40">
         </a>
