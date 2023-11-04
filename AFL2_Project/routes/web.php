@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\OwnerController;
+use App\Http\Controllers\AboutUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,8 +15,7 @@ use App\Http\Controllers\OwnerController;
 */
 
 Route::get('/', function () {
-    $pageTitle = 'Home Page';
-    return view('home', compact('pageTitle'));
+    return view('home', [ "pageTitle" => "Home Page"]);
 });
 
-Route::get('/about_us', [OwnerController::class, 'index']);
+Route::get('/about_us', [AboutUsController::class, 'index']);

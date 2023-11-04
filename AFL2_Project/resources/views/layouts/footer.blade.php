@@ -92,3 +92,5 @@
     <!-- Footer -->
 
 </div>
+
+<script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_6.4.2/js/mdb.min.js"></script>

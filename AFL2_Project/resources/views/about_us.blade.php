@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container-fluid", style="padding-inline: 5%">
+    <div class="container-fluid" style="padding-inline: 5%">
         <div class="py-5">
             <div class="row h-100 align-items-center py-5">
                 <div class="col-lg-6">
@@ -40,7 +40,7 @@
     </div>
 
     <div>
-        <div class="container py-5">
+        <div class="container-fluid py-5" style="padding-inline: 5%">
             <div class="row mb-4">
                 <div class="col-lg-5">
                     <h1> Meet Our team</h2>
