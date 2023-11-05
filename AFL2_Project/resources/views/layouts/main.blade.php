@@ -8,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> {{ $pageTitle }} </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/resources/js/components-v2.js"></script>
+    <script src="/resources/css/components-v2.css"></script>
+    <script src="/resources/js/alpine.js"></script>
+    <script src="/resources/css/flowbite.css"></script>
 </head>
 
 <body class="font-Poppins">
@@ -16,6 +20,7 @@
     @yield('content')
     @include('layouts.footer')
 
+    <script src="/resources/js/flowbite.min.js"></script>
 </body>
 
 </html>
