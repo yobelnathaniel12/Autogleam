@@ -12,9 +12,15 @@ class AboutUsController extends Controller
     public function index()
     {
         return view(
-            'about_us',
+            'page_content.about_us',
             [
-                'pageTitle' => 'About Us'
+                "pageTitle" => "About AUTOGLEAM",
+                "first_header" => "Tentang",
+                "bold_header" => "AUTOGLEAM",
+                "paragraph_content" => "Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.",
+                "link" => "www.google.com",
+                "button_content" => "Jelajahi AUTOGLEAM",
+                "image" => "image/about_us_illustration.png"
             ]
         );
     }

@@ -12,6 +12,7 @@
     <script src="/resources/css/components-v2.css"></script>
     <script src="/resources/js/alpine.js"></script>
     <script src="/resources/css/flowbite.css"></script>
+    <script src="/resources/js/flowbite.min.js"></script>
 </head>
 
 <body class="font-Poppins">
@@ -20,7 +21,6 @@
     @yield('content')
     @include('layouts.footer')
 
-    <script src="/resources/js/flowbite.min.js"></script>
 </body>
 
 </html>
