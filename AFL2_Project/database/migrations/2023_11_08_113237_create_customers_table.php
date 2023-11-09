@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
             $table->string('customer_name');
+            $table->string('description')->nullable(true);
             $table->string('profile_picture');
             $table->timestamps();
         });
