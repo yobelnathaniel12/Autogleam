@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\OurCustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about_us', [AboutUsController::class, 'index']);
+
+Route::view(
+    '/our_customer',
+    'page_content.our_customer',
+    ['pageTitle' => 'Customer AUTOGLEAM']/*[OurCustomerController::class, 'index']*/
+);
