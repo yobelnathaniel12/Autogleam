@@ -32,5 +32,11 @@ Route::get('/about_us', [AboutUsController::class, 'index']);
 Route::view(
     '/our_customer',
     'page_content.our_customer',
-    ['pageTitle' => 'Customer AUTOGLEAM']/*[OurCustomerController::class, 'index']*/
+    ['pageTitle' => 'AUTOGLEAM Customer']/*[OurCustomerController::class, 'index']*/
+);
+
+Route::view(
+    '/services',
+    'page_content.services',
+    ['pageTitle' => 'AUTOGLEAM Services']/*[OurCustomerController::class, 'index']*/
 );
