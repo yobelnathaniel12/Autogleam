@@ -17,36 +17,46 @@
                     </a>
                 </div>
             </div> --}}
-            <a href="https://wa.me/6281336183669"
-                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div
+                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                     src="image/shampoo_autogleam.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Autogleam's Products
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Autohome
+                        Service
                     </h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Menyediakan berbagai produk yang dibutuhkan
-                        para customer untuk
-                        merawat
-                        automotif mereka.</p>
-                    <button style="background-color: #5a4ae2"
-                        class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full hover:scale-125">
-                        Contact Us
-                    </button>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bingung mengatur waktu unntuk cuci mobil?
+                        Tenang, Autogleam memiliki layanan Autohome Service yang dapat membuat customer nyaman dengan order
+                        cuci mobil di rumah</p>
+                    <a href="https://wa.me/6281336183669" class="flex flex-row justify-center">
+                        <button style="background-color: #5a4ae2"
+                            class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full scale-95 hover:scale-100">
+                            Contact Us
+                        </button>
+                    </a>
                 </div>
-            </a>
-            <a href="#"
-                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            </div>
+            <div
+                class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                     src="image/shampoo_autogleam.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Autogleam's Products
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Autogleam's
+                        Products
                     </h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Menyediakan berbagai produk yang dibutuhkan
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bingung cari market untuk kebutuhan
+                        otomotif? Autogleam adalah solusinya karena kami menyediakan berbagai produk yang dibutuhkan
                         para customer untuk
                         merawat
-                        automotif mereka.</p>
+                        otomotif mereka. Kami selalu berusaha untuk menghadirkan produk yang belum dijual di marketplace</p>
+                    <a href="#" class="flex flex-row justify-center">
+                        <button style="background-color: #5a4ae2"
+                            class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full scale-95 hover:scale-100">
+                            Check Product
+                        </button>
+                    </a>
                 </div>
-            </a>
+            </div>
             {{-- <div
                 class="grid lg:grid-cols-3 gap-x-8 text-center lg:p-16 items-center rounded-3xl p-8 grid-cols-1 bg-indigo-300">
                 <img src="image/shampoo_autogleam.jpg"
