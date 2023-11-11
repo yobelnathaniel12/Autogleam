@@ -14,7 +14,7 @@ class Testimony extends Model
     {
         return $this->belongsTo(Customer::class);
     }
-    public function prodcuct(): BelongsTo
+    public function product(): BelongsTo
     {
         return $this->belongsTo(Product::class);
     }

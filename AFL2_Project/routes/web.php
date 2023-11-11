@@ -29,11 +29,7 @@ Route::get('/', function () {
 
 Route::get('/about_us', [AboutUsController::class, 'index']);
 
-Route::view(
-    '/our_customer',
-    'page_content.our_customer',
-    ['pageTitle' => 'AUTOGLEAM Customer']/*[OurCustomerController::class, 'index']*/
-);
+Route::get('/our_customer', [OurCustomerController::class, 'index']);
 
 Route::view(
     '/services',
