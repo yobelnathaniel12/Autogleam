@@ -17,8 +17,8 @@ class AboutUsController extends Controller
                 "pageTitle" => "About AUTOGLEAM",
                 "first_header" => "Tentang",
                 "bold_header" => "AUTOGLEAM",
-                "paragraph_content" => "Autogleam adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.",
-                "link" => "www.google.com",
+                "paragraph_content" => "AUTOGLEAM adalah bisnis start-up yang bergerak dalam bidang otomotif lebih tepatnya autocare. Kami menjual produk yang dimana kompetitor masih belum menjualnya, produk unggulan kami adalah shampoo wax & hydrophobic.",
+                "link" => "#explore_about_us",
                 "button_content" => "Jelajahi AUTOGLEAM",
                 "image" => "image/about_us_illustration.png"
             ]

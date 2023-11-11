@@ -15,9 +15,11 @@
                 <p class="text-sm leading-7 my-3 opacity-70">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate dicta necessitatibus et eum neque, id aspernatur qui sit nihil ipsum, ducimus nobis! Velit aperiam exercitationem iste tenetur laudantium facilis!
                 </p>
-                <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
-                    Go
-                </button>
+                <a href="/products">
+                    <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
+                        Go
+                    </button>
+                </a>
             </div>
 
             <div class="flex-1 bg-white/10 p-8 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer rounded-xl mix-blend-luminosity">
@@ -26,9 +28,12 @@
                 <p class="text-sm leading-7 my-3 opacity-70">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate dicta necessitatibus et eum neque, id aspernatur qui sit nihil ipsum, ducimus nobis! Velit aperiam exercitationem iste tenetur laudantium facilis!
                 </p>
-                <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
-                    Go
-                </button>
+                <a href="/services">
+                    <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
+                        Go
+                    </button>
+                </a>
+
             </div>
 
         </div>

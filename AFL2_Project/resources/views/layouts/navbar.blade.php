@@ -1,6 +1,6 @@
 <nav class="bg-white border-gray-200 pt-3 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center">
+        <a href="/" class="flex items-center">
             <img src="image/autogleam_logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
             <span style="color:#5a4ae2"
                 class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">AUTOGLEAM</span>
@@ -23,7 +23,7 @@
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Home</a>
                 </li>
                 <li>
-                    <a href="products" style="color: #5a4ae2"
+                    <a href="/products" style="color: #5a4ae2"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Product</a>
                 </li>
                 <li>

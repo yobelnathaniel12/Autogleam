@@ -19,11 +19,11 @@ use App\Http\Controllers\ProductController;
 Route::get('/', function () {
     return view('page_content.home', [
         "pageTitle" => "Home Page",
-        "first_header" => "lorem ipsum",
-        "bold_header" => "dolor sit",
-        "paragraph_content" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "first_header" => "Tampilan Kilau,",
+        "bold_header" => "Wujudkan Impian",
+        "paragraph_content" => "Dengan fokus pada kualitas dan inovasi, AUTOGLEAM memahami kebutuhan akan perlengkapan mobil terbaik yang tidak hanya membuat mobil Anda bersih, tetapi juga menghadirkan kilau yang memukau.",
         "link" => "www.google.com",
-        "button_content" => "Check Our Product",
+        "button_content" => "Cek Produk Kami",
         "image" => "image/inova-zenix.png"
     ]);
 });
