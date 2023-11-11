@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\OurCustomerController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,14 +32,16 @@ Route::get('/about_us', [AboutUsController::class, 'index']);
 
 Route::get('/our_customer', [OurCustomerController::class, 'index']);
 
+Route::get('/products', [ProductController::class, 'index']);
+
 Route::view(
     '/services',
     'page_content.services',
     ['pageTitle' => 'AUTOGLEAM Services']/*[OurCustomerController::class, 'index']*/
 );
 
-Route::view(
-    '/products',
-    'page_content.products',
-    ['pageTitle' => 'AUTOGLEAM Products']/*[OurCustomerController::class, 'index']*/
-);
+// Route::view(
+//     '/products',
+//     'page_content.products',
+//     ['pageTitle' => 'AUTOGLEAM Products']/*[OurCustomerController::class, 'index']*/
+// );
