@@ -23,7 +23,7 @@
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Home</a>
                 </li>
                 <li>
-                    <a href="#" style="color: #5a4ae2"
+                    <a href="products" style="color: #5a4ae2"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Product</a>
                 </li>
                 <li>
