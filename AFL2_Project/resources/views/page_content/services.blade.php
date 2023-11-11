@@ -2,7 +2,7 @@
 @section('content')
     <div class="max-w-full px-8 py-8 lg:px-16">
         <h1 class="text-center mb-8 md:text-4xl font-bold text-2xl">Our Services</h1>
-        <div class="flex flex-row max-[1024px]:flex-wrap gap-12 justify-items-center justify-center">
+        <div class="flex flex-row max-[1210px]:flex-wrap gap-12 justify-items-center justify-center">
             {{-- <div
                 class="grid lg:grid-cols-3 gap-x-8 text-center lg:p-16 items-center rounded-3xl p-8 grid-cols-1 bg-indigo-300">
                 <img src="image/inova-zenix.png" class="mx-auto object-contain w-80 h-80 relative rounded-3xl bg-white">

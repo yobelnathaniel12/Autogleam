@@ -40,3 +40,9 @@ Route::view(
     'page_content.services',
     ['pageTitle' => 'AUTOGLEAM Services']/*[OurCustomerController::class, 'index']*/
 );
+
+Route::view(
+    '/products',
+    'page_content.products',
+    ['pageTitle' => 'AUTOGLEAM Products']/*[OurCustomerController::class, 'index']*/
+);
