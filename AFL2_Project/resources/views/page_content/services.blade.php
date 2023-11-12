@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <div class="max-w-full px-8 py-8 lg:px-16">
-        <h1 class="text-center mb-8 md:text-4xl font-bold text-2xl">Our Services</h1>
+        <h1 class="text-center mb-8 md:text-4xl font-bold text-2xl">Layanan Kami</h1>
         <div class="flex flex-row max-[1210px]:flex-wrap gap-12 justify-items-center justify-center">
             {{-- <div
                 class="grid lg:grid-cols-3 gap-x-8 text-center lg:p-16 items-center rounded-3xl p-8 grid-cols-1 bg-indigo-300">
@@ -31,7 +31,7 @@
                     <a href="https://wa.me/6281336183669" class="flex flex-row justify-center">
                         <button style="background-color: #5a4ae2"
                             class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full scale-95 hover:scale-100">
-                            Contact Us
+                            Hubungi Kami
                         </button>
                     </a>
                 </div>
@@ -52,7 +52,7 @@
                     <a href="/products" class="flex flex-row justify-center">
                         <button style="background-color: #5a4ae2"
                             class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full scale-95 hover:scale-100">
-                            Check Product
+                            Cek Produk
                         </button>
                     </a>
                 </div>

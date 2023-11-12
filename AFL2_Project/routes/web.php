@@ -22,7 +22,7 @@ Route::get('/', function () {
         "first_header" => "Tampilan Kilau,",
         "bold_header" => "Wujudkan Impian",
         "paragraph_content" => "Dengan fokus pada kualitas dan inovasi, AUTOGLEAM memahami kebutuhan akan perlengkapan mobil terbaik yang tidak hanya membuat mobil Anda bersih, tetapi juga menghadirkan kilau yang memukau.",
-        "link" => "www.google.com",
+        "link" => "/products",
         "button_content" => "Cek Produk Kami",
         "image" => "image/inova-zenix.png"
     ]);

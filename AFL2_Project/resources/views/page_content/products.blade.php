@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <div class="pt-8 px-16 mb-8">
-        <h1 class="text-center mb-8 md:text-4xl font-bold text-2xl">Our Products</h1>
+        <h1 class="text-center mb-8 md:text-4xl font-bold text-2xl">Produk-Produk Kami</h1>
         <div class="flex flex-row flex-wrap gap-12 justify-items-center justify-center">
             @foreach ($products as $product)
                 <div
@@ -19,7 +19,7 @@
                         <a href="https://wa.me/6281336183669" class="flex flex-row justify-center">
                             <button style="background-color: #5a4ae2"
                                 class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full scale-95 hover:scale-100">
-                                Contact Us
+                                Hubungi Kami
                             </button>
                         </a>
                     </div>
