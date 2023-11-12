@@ -7,13 +7,12 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title> {{ $pageTitle }} </title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/resources/js/components-v2.js"></script>
-    <script src="/resources/css/components-v2.css"></script>
-    <script src="/resources/js/alpine.js"></script>
-    <script src="/resources/css/flowbite.css"></script>
-    <script src="/resources/js/flowbite.min.js"></script>
+    <script src="/resources/js/toggle.js"></script>
+    {{-- <script src="/resources/js/flowbite.min.js"></script> --}}
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 </head>
 
 <body class="font-Poppins">
