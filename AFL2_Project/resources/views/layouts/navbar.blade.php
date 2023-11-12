@@ -1,8 +1,8 @@
-<nav class="bg-white border-gray-200 pt-3 dark:bg-gray-900">
+<nav style="background-color:#5a4ae2" class="border-gray-200 py-3 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
-            <img src="image/autogleam_logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
-            <span style="color:#5a4ae2"
+            <img src="image/autogleam_logo_white_ver.png" class="h-8 mr-3" />
+            <span style="color:#fff"
                 class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">AUTOGLEAM</span>
         </a>
         <button data-collapse-toggle="navbar-default" type="button"
@@ -17,25 +17,25 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul
-                class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="/" style="color: #5a4ae2"
+                    <a href="/" style="color: #fff"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Home</a>
                 </li>
                 <li>
-                    <a href="/products" style="color: #5a4ae2"
+                    <a href="/products" style="color: #fff"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Product</a>
                 </li>
                 <li>
-                    <a href="/services" style="color: #5a4ae2"
+                    <a href="/services" style="color: #fff"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Services</a>
                 </li>
                 <li>
-                    <a href="/about_us" style="color: #5a4ae2"
+                    <a href="/about_us" style="color: #fff"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">About Us</a>
                 </li>
                 <li>
-                    <a href="/our_customer" style="color: #5a4ae2"
+                    <a href="/our_customer" style="color:#fff"
                         class="text-xl md:text-lg block py-2 pl-3 pr-4 rounded md:p-0">Our Customer</a>
                 </li>
             </ul>

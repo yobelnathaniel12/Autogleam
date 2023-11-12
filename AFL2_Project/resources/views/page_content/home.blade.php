@@ -13,11 +13,10 @@
                 <img src="image/product.png" alt="" class="h-20 mx-auto">
                 <h4 class="uppercase text-xl font-bold"> Produk </h4>
                 <p class="text-sm leading-7 my-3 opacity-70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate dicta necessitatibus et eum neque, id aspernatur qui sit nihil ipsum, ducimus nobis! Velit aperiam exercitationem iste tenetur laudantium facilis!
-                </p>
+                    Dapatkan produk terbaik untuk mobil anda dan nikmati perjalanan dengan gaya dan keamanan yang tak tertandingi. Klik sekarang untuk menemukan produk unik dan bermanfaat kami yang akan mengubah cara Anda berinteraksi dengan mobil anda! </p>
                 <a href="/products">
                     <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
-                        Go
+                        Pergi
                     </button>
                 </a>
             </div>
@@ -26,11 +25,10 @@
                 <img src="image/service.png" alt="" class="h-20 mx-auto">
                 <h4 class="uppercase text-xl font-bold"> Jasa </h4>
                 <p class="text-sm leading-7 my-3 opacity-70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate dicta necessitatibus et eum neque, id aspernatur qui sit nihil ipsum, ducimus nobis! Velit aperiam exercitationem iste tenetur laudantium facilis!
-                </p>
+                    Nikmati layanan carwash kami yang dirancang khusus untuk memberikan hasil maksimal. Klik sekarang untuk merasakan layanan carwash yang tidak hanya memberikan kebersihan, tetapi juga pengalaman yang unik dan berbeda untuk mobil anda </p>
                 <a href="/services">
                     <button style="background-color: #5a4ae2" class="font-semibold text-white bg-btn-primay py-2.5 px-8 rounded-full">
-                        Go
+                        Pergi
                     </button>
                 </a>
 
