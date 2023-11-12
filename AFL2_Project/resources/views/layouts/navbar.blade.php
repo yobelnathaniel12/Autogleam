@@ -1,4 +1,4 @@
-<nav style="background-color:#5a4ae2" class="border-gray-200 py-3 dark:bg-gray-900">
+<nav style="background-color:#5a4ae2" class="border-white-200 py-3 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
             <img src="image/autogleam_logo_white_ver.png" class="h-8 mr-3" />
