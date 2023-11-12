@@ -74,9 +74,9 @@
                         <div class="w-full lg:w-6/12 px-4">
                             <!-- Header -->
                             <h1
-                            class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                            Tim <span style="color: #5a4ae2"> AUTOGLEAM </span>
-                        </h1>
+                                class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                                Tim <span style="color: #5a4ae2"> AUTOGLEAM </span>
+                            </h1>
 
                             <!-- Description -->
                             <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
@@ -87,106 +87,30 @@
 
                     <!-- Team Members -->
                     <div class="flex flex-wrap">
-                        <!-- Member #1 -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                            <div class="flex flex-col">
-                                <!-- Avatar -->
-                                <a href="#" class="mx-auto">
-                                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        style="height:280px; width: 250px" src="image/founders/Richard Hermawan.PNG">
-                                </a>
 
-                                <!-- Details -->
-                                <div class="text-center mt-6">
-                                    <!-- Name -->
-                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Richard Hermawan
-                                    </h1>
+                        @foreach ($owners as $owner)
+                            <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                                <div class="flex flex-col">
 
-                                    <!-- Title -->
-                                    <div class="text-gray-700 font-light mb-2">
-                                        Chief Executive Officer (CEO)
+                                    <a href="#" class="mx-auto">
+                                        <img src="{{ asset('image/founders/' . $owner->image) }}"
+                                            class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                            style="height:280px; width: 250px">
+                                    </a>
+
+                                    <div class="text-center mt-6">
+                                        <h1 class="text-gray-900 text-xl font-bold mb-1">
+                                           {{ $owner->name }}
+                                        </h1>
+                                        <div class="text-gray-700 font-light mb-2">
+                                            {{ $owner->role }}
+                                        </div>
+
                                     </div>
-
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Member #2 -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                            <div class="flex flex-col">
-                                <!-- Avatar -->
-                                <a href="#" class="mx-auto">
-                                    <img style="height:280px; width: 250px"
-                                        class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        src="image/founders/Angga.PNG">
-                                </a>
-
-                                <!-- Details -->
-                                <div class="text-center mt-6">
-                                    <!-- Name -->
-                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Angga Saputra Wibowo
-                                    </h1>
-
-                                    <!-- Title -->
-                                    <div class="text-gray-700 font-light mb-2">
-                                        Chief Operating Officer (COO)
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Member #3 -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                            <div class="flex flex-col">
-                                <!-- Avatar -->
-                                <a href="#" class="mx-auto">
-                                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        style="height:280px; width: 250px" src="image/founders/Vincent.jpg">
-                                </a>
-
-                                <!-- Details -->
-                                <div class="text-center mt-6">
-                                    <!-- Name -->
-                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Vincent Anggriawan
-                                    </h1>
-
-                                    <!-- Title -->
-                                    <div class="text-gray-700 font-light mb-2">
-                                        Chief Marketing Officer (CMO)
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Member #4 -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                            <div class="flex flex-col">
-                                <!-- Avatar -->
-                                <a href="#" class="mx-auto">
-                                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        style="height:280px; width: 250px" src="image/founders/Vita.jpg">
-                                </a>
-
-                                <!-- Details -->
-                                <div class="text-center mt-6">
-                                    <!-- Name -->
-                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Vita Tiania Pattiwel
-                                    </h1>
-
-                                    <!-- Title -->
-                                    <div class="text-gray-700 font-light mb-2">
-                                        Chief Technology Officer (CTO)
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+                        
                     </div>
                 </div>
             </div>
