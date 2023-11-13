@@ -10,14 +10,14 @@
         </div>
 
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl ">
                 <span style="color: #5a4ae2"> Tujuan </span> Perusahaan
             </h1>
-            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"> Visi Kami </h2>
-            <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Membantu
+            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl "> Visi Kami </h2>
+            <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl "> Membantu
                 konsumen untuk membuat mobil selalu bersih dan membantu UMKM carwash untuk berkembang </p>
-            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"> Misi Kami </h2>
-            <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Membuat
+            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl "> Misi Kami </h2>
+            <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl"> Membuat
                 aplikasi yang interaktif serta produk yang lebih murah dan efisien untuk carwash </p>
 
         </div>
@@ -27,25 +27,24 @@
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1
-                class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl">
                 <span style="color: #5a4ae2"> Kontak </span> Perusahaan
             </h1>
 
-            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"> Email : <span>
-                    <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
+            <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl"> Email : <span>
+                    <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl">
                         autogleam19@gmail.com </p>
                 </span> </h2>
             <div class="mb-3">
-                <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"> Instagram : </h2>
+                <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl "> Instagram : </h2>
                 <a href="https://instagram.com/autogleam_id?igshid=dWpiNnJwNGNwN2cy"
-                    class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
+                    class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl ">
                     @autogleam_id </a>
             </div>
             <div class="mb-3">
-                <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"> WhatsApp : </h2>
+                <h2 class="max-w-2xl font-bold text-gray-500 md:text-lg lg:text-xl "> WhatsApp : </h2>
                 <a href="https://wa.me/6281336183669"
-                    class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
+                    class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl ">
                     (+62) 813-3618-3669 </a>
             </div>
 
@@ -74,12 +73,12 @@
                         <div class="w-full lg:w-6/12 px-4">
                             <!-- Header -->
                             <h1
-                                class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                                class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl">
                                 Tim <span style="color: #5a4ae2"> AUTOGLEAM </span>
                             </h1>
 
                             <!-- Description -->
-                            <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
+                            <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl">
                                 Kenali Wajah-wajah yang Mendorong Visi <span style="color: #5a4ae2"> AUTOGLEAM </span> ke
                                 Depan. </p>
                         </div>
@@ -100,7 +99,7 @@
 
                                     <div class="text-center mt-6">
                                         <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                           {{ $owner->name }}
+                                            {{ $owner->name }}
                                         </h1>
                                         <div class="text-gray-700 font-light mb-2">
                                             {{ $owner->role }}
@@ -110,7 +109,7 @@
                                 </div>
                             </div>
                         @endforeach
-                        
+
                     </div>
                 </div>
             </div>
