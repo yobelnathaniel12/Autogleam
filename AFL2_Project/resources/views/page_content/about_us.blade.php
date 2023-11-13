@@ -56,29 +56,25 @@
 
     </div>
 
-    <!-- component -->
-    <!-- MDI Icons -->
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
-
     <!-- Page Container -->
     <div class="flex items-center justify-center min-h-screen bg-white pt-12 pb-40">
         <div class="flex flex-col">
-            <!-- Notes -->
+
 
             <div class="flex flex-col mt-8">
-                <!-- Meet the Team -->
+
                 <div class="container max-w-7xl px-4">
-                    <!-- Section Header -->
+
                     <div class="flex flex-wrap justify-center text-center mb-24">
                         <div class="w-full lg:w-6/12 px-4">
-                            <!-- Header -->
+
                             <h1
                                 class="max-w-2xl mb-6 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl">
                                 Tim <span style="color: #5a4ae2"> AUTOGLEAM </span>
                             </h1>
 
                             <!-- Description -->
-                            <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl">
+                            <p class="max-w-2xl font-light text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
                                 Kenali Wajah-wajah yang Mendorong Visi <span style="color: #5a4ae2"> AUTOGLEAM </span> ke
                                 Depan. </p>
                         </div>
